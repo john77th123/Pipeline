@@ -1,6 +1,6 @@
 # Unreal Engine Animation Exporter Plugin
 
-This project showcases the **Animation Exporter Plugin** and its use case within Unreal Engine. While Unreal Engine provides many tools to set up an in-editor animation pipeline, it lacks built-in features to effectively manage and export animation data. Animation exporters have long been a crucial part of the animation content integration process, and this plugin aims to fill that gap.
+This project showcases the **Animation Exporter Plugin** and its use case within Unreal Engine. While Unreal Engine provides many tools to set up an in-editor animation pipeline, it lacks built-in features to effectively manage and export animation data. Animation exporters have long been a crucial part of the animation content integration process, and this plugin aims to fill that gap in Unreal Engine Editor based animation pipeline.
 
 ---
 
@@ -13,7 +13,7 @@ The plugin is inspired by the behavior of Maya's animation exporter, ensuring th
 - **End frame**
 - **Animation layers**
 
-Replicating Maya's animation layer behavior within the Unreal Engine editor presents a unique challenge. This plugin leverages Unreal's **Level Sequence Track System** as the foundation for replicating Maya's scene structure and implementing animation layers. Additive and subtractive tracks are used to mimic animation layer behavior effectively.
+Replicating Maya's animation layer behavior within the Unreal Engine editor presents a unique challenge. This plugin leverages Unreal's **Level Sequence Track System** as the foundation for replicating Maya's scene structure and implementing animation layers. Additive and subtractive tracks are used to mimic animation layer behavior effectively. While the tool's functionality is focusing on managing and exporting animation sequence, it can be easily extended to manage additive blendtype, reference pose of exported animation sequence asset to reduce asset management overhead and possible bugs.
 
 ---
 
@@ -44,4 +44,5 @@ This tool is a **work in progress (WIP)** and may have limitations or bugs as it
 
 ## Contribution
 
+Huge thanks to Melyssa Battison for help with navigating Unreal Engine c++ basics and various functions, Casey McDermott for pushing for the idea of UE animation pipeline.
 Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
