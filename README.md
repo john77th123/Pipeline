@@ -17,6 +17,12 @@ Replicating Maya's animation layer behavior within the Unreal Engine editor pres
 
 ---
 
+## Demo
+
+https://github.com/user-attachments/assets/7fa8cc13-9d5a-499d-8870-d17b38c93514
+
+---
+
 ## Features
 
 - **Animation Layer Support**: Implements animation layers using Unreal Engine's additive and subtractive tracks.
